@@ -1,6 +1,4 @@
-# amazon-clone
-
-# Amazon clone built using HTML and CSS.
+# Amazon clone built using HTML and CSS
 
 This webpage is responsive, but. best viewed in screens that are **1920px** wide.
 
