@@ -211,7 +211,7 @@ a {
 .hero-img {
   height: auto;
   width: 80%;
-  margin-bottom: -270px;
+  margin-bottom: -275px;
   z-index: -1;
 }
 
@@ -367,4 +367,38 @@ a {
 .sign-in-footer a {
   color: #007185;
   margin-left: 6px;
+}
+
+.back-to-top {
+  background-color: #293a4e;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+
+.back-to-top:hover {
+  background-color: #3b5470;
+}
+
+.primary-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232f3e;
+  color: white;
+  padding: 30px;
+}
+
+th {
+  text-align: left;
+  padding: 0 75px;
+}
+
+td {
+  padding: 0 75px;
+}
+
+td a {
+  color: #cccccc;
 }
