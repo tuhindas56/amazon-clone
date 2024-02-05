@@ -289,6 +289,11 @@ a {
   font-weight: 100px;
 }
 
+.card a:hover {
+  text-decoration: underline;
+  color: #fd9814;
+}
+
 .card-sign-in {
   background-color: #fff;
   height: 10%;
@@ -338,9 +343,14 @@ a {
 .addn-offers-heading a {
   margin-left: 10px;
   letter-spacing: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: #007185;
+}
+
+.addn-offers-heading a:hover {
+  text-decoration: underline;
+  color: #fd9814;
 }
 
 .addn-offers-images {
@@ -371,6 +381,10 @@ a {
 .sign-in-footer a {
   color: #007185;
   margin-left: 6px;
+}
+
+.sign-in-footer a:hover {
+  color: #fd9814;
 }
 
 .back-to-top {
@@ -413,6 +427,10 @@ a {
 .primary-footer table td a,
 .tertiary-footer-th {
   color: #cccccc;
+}
+
+.primary-footer table td a:hover {
+  text-decoration: underline;
 }
 
 .secondary-footer {
@@ -460,6 +478,10 @@ a {
 
 .tertiary-footer a {
   color: #999999;
+}
+
+.tertiary-footer a:hover {
+  text-decoration: underline;
 }
 
 .tertiary-footer table tr td {
