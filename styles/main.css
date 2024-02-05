@@ -31,7 +31,6 @@ a {
 
 .outline:hover {
   outline: 1px solid white;
-  height: 40px;
 }
 
 .nav-primary {
@@ -61,7 +60,6 @@ a {
 .logo {
   width: auto;
   height: 30px;
-  margin-bottom: -5px;
 }
 
 .location {
