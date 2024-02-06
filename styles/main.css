@@ -188,6 +188,10 @@ a {
   background-color: #232f3e;
 }
 
+.nav-secondary ul {
+  padding: 0 10px;
+}
+
 .nav-secondary ul li {
   padding: 10px 0;
 }
