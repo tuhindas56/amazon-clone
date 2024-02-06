@@ -20,13 +20,17 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
   flex-wrap: wrap;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+#primary-header {
+  position: sticky;
+  top: 0;
 }
 
 .outline:hover {
@@ -36,6 +40,7 @@ a {
 .nav-primary {
   width: 100%;
   background-color: #131921;
+  border: 1px solid red;
   color: white;
 }
 
@@ -44,11 +49,7 @@ a {
   flex-shrink: 0;
   display: flex;
   gap: 30px;
-  padding: 8px 0;
-}
-
-.nav-primary-block1 {
-  margin-right: 20px;
+  padding: 8px 20px;
 }
 
 .logo-anchor {
@@ -126,10 +127,6 @@ a {
 
 .nav-primary-block2 button:focus {
   outline: 3px solid #fd9814;
-}
-
-.nav-primary-block3 {
-  margin-left: 20px;
 }
 
 .lang {
