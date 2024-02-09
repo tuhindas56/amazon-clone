@@ -1,7 +1,0 @@
-Issue: webpage not fitting
-
-Contributors:
- primary header
- card sections
- primary footer
- tertiary footer 
