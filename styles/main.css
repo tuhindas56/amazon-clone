@@ -28,7 +28,7 @@ a {
   color: white;
 }
 
-#primary-header {
+.primary-header {
   position: sticky;
   top: 0;
 }
@@ -133,29 +133,6 @@ a {
   align-items: center;
 }
 
-.lang-dropdown {
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: white;
-  color: black;
-  padding: 10px;
-  width: 130px;
-  border: 1px solid #232f3e;
-}
-
-.lang-dropdown-optn {
-  display: flex;
-  gap: 5px;
-  margin-bottom: 10px;
-}
-
-.lang:hover .lang-dropdown {
-  position: absolute;
-  display: flex;
-  margin-top: 35vh;
-}
-
 .india-flag {
   width: auto;
   height: 13px;
@@ -238,7 +215,6 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 80%;
-  background-color: none;
   row-gap: 30px;
 }
 
@@ -288,7 +264,6 @@ a {
 
 .card a {
   color: #007185;
-  font-weight: 100px;
 }
 
 .card a:hover {
@@ -393,11 +368,13 @@ a {
 }
 
 .back-to-top {
+  display: block;
   background-color: #293a4e;
   padding: 20px;
   width: 100%;
   border: none;
   font-size: 14px;
+  text-align: center;
 }
 
 .back-to-top:hover {
@@ -419,7 +396,8 @@ a {
   border-bottom: 1px solid #2f4763;
 }
 
-.primary-footer table {
+.primary-footer > table {
+  border-spacing: 14px;
   width: 60%;
 }
 
@@ -486,6 +464,9 @@ a {
   font-size: 11px;
 }
 
+.tertiary-footer > table {
+  border-spacing: 45px;
+}
 .tertiary-footer a {
   color: #999999;
 }
