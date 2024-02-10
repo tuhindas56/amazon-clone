@@ -314,13 +314,11 @@ a {
 .addn-offers-heading {
   font-size: 19px;
   font-weight: 600;
-  letter-spacing: 1px;
   margin-bottom: 30px;
 }
 
 .addn-offers-heading a {
   margin-left: 10px;
-  letter-spacing: 0;
   font-size: 14px;
   font-weight: 500;
   color: #007185;
