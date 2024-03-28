@@ -1,6 +1,8 @@
 @font-face {
   font-family: "Ember";
-  src: url("../fonts/Ember/Amazon-Ember-Medium.ttf"), url("../fonts/Ember/AmazonEmber_Bd.ttf"), url("../fonts/Ember/AmazonEmber_BdIt.ttf"), url("../fonts/Ember/AmazonEmber_He.ttf"), url("../fonts/Ember/AmazonEmber_HeIt.ttf");
+  src: url("../fonts/Ember/Amazon-Ember-Medium.ttf"), url("../fonts/Ember/AmazonEmber_Bd.ttf"),
+    url("../fonts/Ember/AmazonEmber_BdIt.ttf"), url("../fonts/Ember/AmazonEmber_He.ttf"),
+    url("../fonts/Ember/AmazonEmber_HeIt.ttf");
 }
 
 * {
@@ -373,6 +375,8 @@ a {
   border: none;
   font-size: 14px;
   text-align: center;
+  color: white;
+  cursor: pointer;
 }
 
 .back-to-top:hover {

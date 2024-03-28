@@ -40,7 +40,10 @@
           <button class="fa-solid fa-magnifying-glass"></button>
         </div>
         <div class="nav-primary-block3">
-          <a href="" class="lang outline"> <img src="./assets/india.svg" alt="Indian Flag" class="india-flag" /><span>EN</span><i class="fa-solid fa-chevron-down"></i> </a>
+          <a href="" class="lang outline">
+            <img src="./assets/india.svg" alt="Indian Flag" class="india-flag" /><span>EN</span
+            ><i class="fa-solid fa-chevron-down"></i>
+          </a>
           <a href="" class="sign-in outline">
             <div>Hello, sign in</div>
             <div>Account & Lists</div>
@@ -305,7 +308,9 @@
       <div class="addn-offers">
         <div class="addn-offers-row">
           <div class="addn-offers-heading">
-            Up to 50% off | Best collections of headphones & earphones on Local shops<span><a href="">See all offers</a></span>
+            Up to 50% off | Best collections of headphones & earphones on Local shops<span
+              ><a href="">See all offers</a></span
+            >
           </div>
           <div class="addn-offers-images">
             <a href=""><img src="./assets/addn-offer-img-1.jpg" alt="Wireless neckband" class="addn-offers-img" /></a>
@@ -338,7 +343,7 @@
           New customer?<span><a href="">Start here.</a></span>
         </div>
       </div>
-      <a href="#top" class="back-to-top"> Back to top </a>
+      <button class="back-to-top">Back to top</button>
       <!-- Primary footer -->
       <div class="primary-footer">
         <table>
@@ -405,7 +410,8 @@
           <button><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-up-down"></i></button>
         </div>
         <div class="secondary-footer-row">
-          <a href="">Australia</a><a href="">Brazil</a><a href="">Canada</a><a href="">France</a><a href="">Germany</a><a href="">Italy</a><a href="">Japan</a><a href="">Mexico</a><a href="">Netherlands</a><a href="">Poland</a>
+          <a href="">Australia</a><a href="">Brazil</a><a href="">Canada</a><a href="">France</a><a href="">Germany</a
+          ><a href="">Italy</a><a href="">Japan</a><a href="">Mexico</a><a href="">Netherlands</a><a href="">Poland</a>
           <a href="">Singapore</a><a href="">Spain</a><a href="">Turkey</a><a href="">United Arab Emirates</a>
         </div>
         <div class="secondary-footer-row2"><a href="">United Kingdom</a><a href="">United States</a></div>
@@ -475,11 +481,24 @@
           </tr>
         </table>
         <div class="tertiary-footer-last-row">
-          <div class="tertiary-footer-row1"><a href="">Conditions of Use & Sale</a><a href="">Privacy Notice</a><a href="">Interest-Based Ads</a></div>
+          <div class="tertiary-footer-row1">
+            <a href="">Conditions of Use & Sale</a><a href="">Privacy Notice</a><a href="">Interest-Based Ads</a>
+          </div>
           <div class="tertiary-footer-row">&copy; 1996-2024, Amazon.com, Inc or its affiliates</div>
-          <div class="tertiary-footer-row3">Amazon Clone built by <a href="https://github.com/tuhindas56">Tuhin Das</a></div>
+          <div class="tertiary-footer-row3">
+            Amazon Clone built by <a href="https://github.com/tuhindas56">Tuhin Das</a>
+          </div>
         </div>
       </div>
     </footer>
+    <script>
+      document.querySelector(".back-to-top").addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth",
+        });
+      });
+    </script>
   </body>
 </html>
